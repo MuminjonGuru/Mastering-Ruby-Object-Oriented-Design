@@ -20,5 +20,7 @@ print evens
 
 puts  # new line
 
+#-------------Using Map Functions------------#
+
 # LOOKS PROFESSIONAL
 print nums.select{ |ele| ele % 2 == 0 }
