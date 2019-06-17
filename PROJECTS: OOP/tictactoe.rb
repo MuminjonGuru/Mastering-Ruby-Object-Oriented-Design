@@ -125,8 +125,6 @@ module TicTacToe
         return corner_trap_defense_position(opponent_marker)
       end
 
-      # could make this smarter by sometimes doing corner trap offense
-
       return random_prioritized_position
     end
 
